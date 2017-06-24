@@ -1,5 +1,8 @@
 int switchState = 0;
 
+//code will start with constant LED and flashing other LED
+//when switch is pressed third LED will start flashing along with second.
+
 void setup() {
   // put your setup code here, to run once:
 
@@ -16,7 +19,7 @@ void loop() {
     digitalWrite(5,HIGH); //green LED turn on 
     digitalWrite(4,HIGH); //red LED off
     digitalWrite(3,LOW); //yellow LED off
-    delay(250);
+    delay(1000);
     digitalWrite(4,LOW);
     delay(250); 
   }else{
