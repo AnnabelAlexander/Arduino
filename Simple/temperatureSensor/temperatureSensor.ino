@@ -35,11 +35,11 @@ void loop() {
     digitalWrite(4,LOW);
     digitalWrite(5,LOW);
   }
-  else if (temp >= baselineTemp && temp <= baselineTemp+2.0){
+  else if (temp >= baselineTemp && temp <= baselineTemp+1.0){
     digitalWrite(3,HIGH);
     digitalWrite(4,LOW);
     digitalWrite(5,LOW);
-  }else if (temp > baselineTemp + 2.0 && temp <= baselineTemp + 3.5){
+  }else if (temp > baselineTemp + 1.0 && temp <= baselineTemp + 2.0){
     digitalWrite(3,LOW);
     digitalWrite(4,HIGH);
     digitalWrite(5,LOW);
